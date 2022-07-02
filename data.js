@@ -2,7 +2,7 @@
 const data1= document.getElementById("bodydiv");
 
 
-const data = {
+const data = [{
     "Update_Date": "2022-07-02 16:15:00",
     "USD": {
     "Alış": "16,7259",
@@ -28,6 +28,6 @@ const data = {
     "Satış": "10,72",
     "Değişim": "%-1,50"
     }
-    }
+    }]
 
     data1.innerHTML = JSON.stringify(data);
